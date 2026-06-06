@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: oklch(0.145 0 0);
+  --surface: oklch(0.175 0 0);
+  --foreground: oklch(1 0 0);
+  --muted-foreground: oklch(0.72 0.005 270);
+  --border: oklch(0.25 0 0);
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: oklch(0.4 0 0);
+  color: oklch(1 0 0);
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 2px;
+}
+
+/* Scroll progress bar */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 100;
+  transform-origin: left;
+}
+
+/* Grid background */
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* Noise overlay */
+.noise-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Section heading animation */
+@keyframes wordReveal {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.word-reveal {
+  display: inline-block;
+  overflow: hidden;
+}
+
+/* Card hover border trace */
+@keyframes borderTrace {
+  0% { clip-path: inset(0 100% 100% 0); }
+  25% { clip-path: inset(0 0 100% 0); }
+  50% { clip-path: inset(0 0 0 0); }
+  100% { clip-path: inset(0 0 0 0); }
+}
+
+/* Radial pulse */
+@keyframes radialPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.06;
+  }
+  50% {
+    transform: scale(1.08);
+    opacity: 0.12;
+  }
+}
+
+.radial-pulse {
+  animation: radialPulse 8s ease-in-out infinite;
+}
+
+/* Counter animation */
+@keyframes countUp {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
