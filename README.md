@@ -1,4 +1,4 @@
-# Portfolio Remaster V1 (Beta)
+# Portfolio Remaster V2 (Beta)
 
 A modern redesign of my personal portfolio built with React, TypeScript, Vite, and Tailwind CSS.
 
