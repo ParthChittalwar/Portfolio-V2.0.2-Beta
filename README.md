@@ -4,7 +4,7 @@ A modern redesign of my personal portfolio built with React, TypeScript, Vite, a
 
 ## Status
 
-**Version:** V1.0 (Beta)
+**Version:** V2.0 (Beta)
 
 This project represents the first remastered version of my portfolio. It was created to explore modern UI design, animations, and improved responsiveness.
 
