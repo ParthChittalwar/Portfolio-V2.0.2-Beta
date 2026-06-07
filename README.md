@@ -35,7 +35,7 @@ This project represents the second remastered version of my portfolio. It was cr
 ## Installation
 
 ```bash
-git clone https://github.com/ParthChittalwar/Portfolio-Remaster.git
+git clone https://github.com/ParthChittalwar/Portfolio-Remaster---v2.git
 cd portfolio
 npm install
 npm run dev
