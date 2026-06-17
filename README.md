@@ -1,4 +1,4 @@
-[### Portfolio V2.0.2
+### Portfolio V2.0.2
 
 Status: Redesign Iteration
 
