@@ -1,63 +1,31 @@
-# Portfolio Remaster V2 (Beta)
+[### Portfolio V2.0.2
 
-A modern redesign of my personal portfolio built with React, TypeScript, Vite, and Tailwind CSS.
+Status: Redesign Iteration
 
-## Status
+Repository:
+https://github.com/ParthChittalwar/Portfolio-V2.0.2-Beta
 
-**Version:** V2.0 (Beta)
+Live:
+https://portfolio-remaster---v2.pages.dev/
 
-This project represents the second remastered version of my portfolio. It was created to explore modern UI design, animations, and improved responsiveness.
+What's New Compared to V2:
 
-## Tech Stack
+* Improved responsiveness
+* Navigation redesign
+* Better layout consistency
+* Cleaner UI architecture
+* Enhanced performance
+* Improved section organization
 
-* React
-* TypeScript
-* Vite
-* Tailwind CSS
-* React Router
+Issues Fixed:
 
-## Features
+* Name and hero alignment problems
+* Navigation responsiveness issues
+* Layout overflow on smaller screens
+* Animation timing inconsistencies
 
-* Modern portfolio layout
-* Animated UI components
-* Responsive design
-* Skills showcase
-* Projects section
-* Certifications section
-* Contact section
+Known Issues:
 
-## Known Issues
-
-* Animation glitches in certain sections
-* Minor responsive layout inconsistencies
-* Performance optimizations still in progress
-
-## Installation
-
-```bash
-git clone https://github.com/ParthChittalwar/Portfolio-Remaster---v2.git
-cd portfolio
-npm install
-npm run dev
-```
-
-## Build
-
-```bash
-npm run build
-```
-
-## Project Goal
-
-The goal of this project was to redesign my portfolio using a modern React-based stack while experimenting with animations, component architecture, and responsive layouts.
-
-## Future Plans
-
-* Improve animation stability
-* Refine responsiveness
-* Optimize performance
-* Implement UI/UX improvements in future versions
-
-## License
-
-This project is for personal portfolio and learning purposes.
+* Architecture still difficult to scale
+* Content remained largely hardcoded
+* Accessibility improvements needed
