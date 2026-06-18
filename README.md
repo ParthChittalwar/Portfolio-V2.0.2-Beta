@@ -26,6 +26,6 @@ Issues Fixed:
 
 Known Issues:
 
-* Architecture still difficult to scale
+* Architecture still difficult to scal
 * Content remained largely hardcoded
 * Accessibility improvements needed
