@@ -19,13 +19,13 @@ What's New Compared to V2:
 
 Issues Fixed:
 
-* Name and hero alignment problems
+* Name and hero alignment 
 * Navigation responsiveness issues
 * Layout overflow on smaller screens
 * Animation timing inconsistencies
 
 Known Issues:
 
-* Architecture still difficult to scal
+* Architecture still difficult to scale
 * Content remained largely hardcoded
 * Accessibility improvements needed
